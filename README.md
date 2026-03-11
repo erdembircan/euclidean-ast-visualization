@@ -10,5 +10,3 @@ while b != 0:
         b := b - a
 return a
 ```
-
-Based on the Wikipedia AST diagram for the Euclidean algorithm.
