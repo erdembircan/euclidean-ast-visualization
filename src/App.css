@@ -357,10 +357,14 @@ h1 {
 
   .bottom-panel {
     flex-direction: column;
+    gap: 16px;
   }
 
   .code-container {
+    flex: none;
+    width: 100%;
     padding: 20px 16px;
+    overflow-x: auto;
   }
 
   .code-block {
@@ -369,5 +373,6 @@ h1 {
 
   .execution-panel {
     width: 100%;
+    flex-shrink: 0;
   }
 }
