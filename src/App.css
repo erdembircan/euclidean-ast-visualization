@@ -334,3 +334,40 @@ h1 {
   border-color: #f59e0b;
   color: #1e293b;
 }
+
+/* ---- Mobile layout ---- */
+
+@media (max-width: 768px) {
+  .app {
+    padding: 16px 10px;
+    gap: 16px;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  .tree-container {
+    padding: 12px 6px;
+  }
+
+  .tree-container svg {
+    max-height: 40vh;
+  }
+
+  .bottom-panel {
+    flex-direction: column;
+  }
+
+  .code-container {
+    padding: 20px 16px;
+  }
+
+  .code-block {
+    font-size: 0.9rem;
+  }
+
+  .execution-panel {
+    width: 100%;
+  }
+}
